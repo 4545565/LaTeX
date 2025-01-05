@@ -1,0 +1,55 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.1)  2 SEP 2024 19:13
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**f:/vscode/LaTeX/cumcmthesis2.0/example
+(f:/vscode/LaTeX/cumcmthesis2.0/example.tex
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-08-16>
+(./cumcmthesis.cls
+Document Class: cumcmthesis 2017/09/16 v2.6 Standard LaTeX Template for CUMCM
+(c:/texlive/2024/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2024/02/08 v1.4n Standard LaTeX document class
+(c:/texlive/2024/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2024/02/08 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count194
+\c@section=\count195
+\c@subsection=\count196
+\c@subsubsection=\count197
+\c@paragraph=\count198
+\c@subparagraph=\count199
+\c@figure=\count266
+\c@table=\count267
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen141
+) (c:/texlive/2024/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+ (c:/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+
+ ********************************************
+ * XeTeX is required to compile this document.
+ * Sorry!
+ ********************************************
+
+./cumcmthesis.cls:34: Emergency stop.
+<read *> 
+         
+l.34 \RequireXeTeX
+                  
+*** (cannot \read from terminal in nonstop modes)
+
+ 
+Here is how much of TeX's memory you used:
+ 348 strings out of 473579
+ 4982 string characters out of 5732264
+ 1925960 words of memory out of 5000000
+ 23324 multiletter control sequences out of 15000+600000
+ 558367 words of font info for 37 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 57i,0n,65p,176b,36s stack positions out of 10000i,1000n,20000p,200000b,200000s
+./cumcmthesis.cls:34:  ==> Fatal error occurred, no output PDF file produced!

@@ -1,0 +1,343 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{wu2023referring}
+\citation{wu2023referring}
+\citation{liang2022rethinking,zhang2023motrv2}
+\@LN@col{1}
+\@writefile{toc}{\contentsline {section}{\numberline {1}\hskip -1em.~Introduction}{1}{section.1}\protected@file@percent }
+\@writefile{brf}{\backcite{wu2023referring}{{1}{1}{section.1}}}
+\@LN@col{2}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces  \textbf  {Comparison among previous RMOT frameworks and ours.} (a) Previous methods incorporate the referring module into the multi-object tracker, which need to retrain the overall framework. (b) Instead, our designed model iKUN can be directly plugged after an off-the-shelf tracker, in which the tracker is frozen while training. }}{1}{figure.caption.1}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig_1}{{1}{1}{\textbf {Comparison among previous RMOT frameworks and ours.} (a) Previous methods incorporate the referring module into the multi-object tracker, which need to retrain the overall framework. (b) Instead, our designed model iKUN can be directly plugged after an off-the-shelf tracker, in which the tracker is frozen while training}{figure.caption.1}{}}
+\newlabel{fig_1@cref}{{[figure][1][]1}{[1][1][]1}{}{}{}}
+\@writefile{brf}{\backcite{wu2023referring}{{1}{1}{section.1}}}
+\@writefile{brf}{\backcite{liang2022rethinking}{{1}{1}{section.1}}}
+\@writefile{brf}{\backcite{zhang2023motrv2}{{1}{1}{section.1}}}
+\citation{radford2021learning}
+\citation{kalman1960new}
+\citation{wu2023referring}
+\citation{geiger2012we}
+\citation{sun2022dancetrack}
+\citation{wojke2017simple,zhang2022bytetrack}
+\citation{yu2016poi,bochinski2017high,wang2020towards,zhang2021fairmot,yang2023hard}
+\citation{bewley2016simple}
+\citation{wojke2017simple}
+\citation{liang2022one}
+\citation{han2022mat}
+\citation{zhang2022bytetrack}
+\citation{du2023strongsort}
+\citation{cao2023observation}
+\citation{aharon2022bot}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces  \textbf  {The motivation of KUM.} Given a tracklet and a set of descriptions, (a) without the guidance from textual stream, the visual encoder is asked to output a single feature to match multiple textual features; (b) with textual guidance, the visual encoder can predict adaptive features for each description. }}{2}{figure.caption.2}\protected@file@percent }
+\newlabel{fig_2}{{2}{2}{\textbf {The motivation of KUM.} Given a tracklet and a set of descriptions, (a) without the guidance from textual stream, the visual encoder is asked to output a single feature to match multiple textual features; (b) with textual guidance, the visual encoder can predict adaptive features for each description}{figure.caption.2}{}}
+\newlabel{fig_2@cref}{{[figure][2][]2}{[1][1][]2}{}{}{}}
+\@LN@col{1}
+\@writefile{brf}{\backcite{radford2021learning}{{2}{1}{section.1}}}
+\@writefile{brf}{\backcite{kalman1960new}{{2}{1}{section.1}}}
+\@LN@col{2}
+\@writefile{brf}{\backcite{wu2023referring}{{2}{1}{section.1}}}
+\@writefile{brf}{\backcite{geiger2012we}{{2}{1}{section.1}}}
+\@writefile{brf}{\backcite{sun2022dancetrack}{{2}{1}{section.1}}}
+\@writefile{brf}{\backcite{wojke2017simple}{{2}{1}{section.1}}}
+\@writefile{brf}{\backcite{zhang2022bytetrack}{{2}{1}{section.1}}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}\hskip -1em.~Related Work}{2}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}\hskip -1em.~Multi-object Tracking}{2}{subsection.2.1}\protected@file@percent }
+\@writefile{brf}{\backcite{bochinski2017high}{{2}{2.1}{subsection.2.1}}}
+\@writefile{brf}{\backcite{wang2020towards}{{2}{2.1}{subsection.2.1}}}
+\@writefile{brf}{\backcite{yang2023hard}{{2}{2.1}{subsection.2.1}}}
+\@writefile{brf}{\backcite{yu2016poi}{{2}{2.1}{subsection.2.1}}}
+\@writefile{brf}{\backcite{zhang2021fairmot}{{2}{2.1}{subsection.2.1}}}
+\@writefile{brf}{\backcite{bewley2016simple}{{2}{2.1}{subsection.2.1}}}
+\@writefile{brf}{\backcite{wojke2017simple}{{2}{2.1}{subsection.2.1}}}
+\@writefile{brf}{\backcite{liang2022one}{{2}{2.1}{subsection.2.1}}}
+\@writefile{brf}{\backcite{han2022mat}{{2}{2.1}{subsection.2.1}}}
+\citation{vaswani2017attention}
+\citation{zhao2023transformer}
+\citation{zhou2023joint}
+\citation{zheng2023towards}
+\citation{zhang2023one}
+\citation{botach2022end}
+\citation{carion2020end}
+\citation{wu2022language}
+\citation{wu2023onlinerefer}
+\citation{wu2023referring}
+\citation{radford2021learning}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces  \textbf  {The overall framework of iKUN.} The visual stream first embeds the local object feature $f_{local}$ and global scene feature $f_{global}$, and then aggregates them using the knowledge unification module (KUM). A temporal model and a visual head are followed to generate the final visual feature $f_v$. Meanwhile, the textual stream encodes the textual feature $f_t$. Finally, a logit head is utilized to predict the similarity score between $f_v$ and $f_t$ }}{3}{figure.caption.3}\protected@file@percent }
+\newlabel{fig_3}{{3}{3}{\textbf {The overall framework of iKUN.} The visual stream first embeds the local object feature $f_{local}$ and global scene feature $f_{global}$, and then aggregates them using the knowledge unification module (KUM). A temporal model and a visual head are followed to generate the final visual feature $f_v$. Meanwhile, the textual stream encodes the textual feature $f_t$. Finally, a logit head is utilized to predict the similarity score between $f_v$ and $f_t$}{figure.caption.3}{}}
+\newlabel{fig_3@cref}{{[figure][3][]3}{[1][2][]3}{}{}{}}
+\@LN@col{1}
+\@writefile{brf}{\backcite{zhang2022bytetrack}{{3}{2.1}{subsection.2.1}}}
+\@writefile{brf}{\backcite{du2023strongsort}{{3}{2.1}{subsection.2.1}}}
+\@writefile{brf}{\backcite{cao2023observation}{{3}{2.1}{subsection.2.1}}}
+\@writefile{brf}{\backcite{aharon2022bot}{{3}{2.1}{subsection.2.1}}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}\hskip -1em.~Referring Tracking}{3}{subsection.2.2}\protected@file@percent }
+\@writefile{brf}{\backcite{vaswani2017attention}{{3}{2.2}{subsection.2.2}}}
+\@writefile{brf}{\backcite{zhao2023transformer}{{3}{2.2}{subsection.2.2}}}
+\@writefile{brf}{\backcite{zhou2023joint}{{3}{2.2}{subsection.2.2}}}
+\@writefile{brf}{\backcite{zheng2023towards}{{3}{2.2}{subsection.2.2}}}
+\@writefile{brf}{\backcite{zhang2023one}{{3}{2.2}{subsection.2.2}}}
+\@writefile{brf}{\backcite{botach2022end}{{3}{2.2}{subsection.2.2}}}
+\@writefile{brf}{\backcite{carion2020end}{{3}{2.2}{subsection.2.2}}}
+\@writefile{brf}{\backcite{wu2022language}{{3}{2.2}{subsection.2.2}}}
+\@writefile{brf}{\backcite{wu2023onlinerefer}{{3}{2.2}{subsection.2.2}}}
+\@LN@col{2}
+\@writefile{brf}{\backcite{wu2023referring}{{3}{2.2}{subsection.2.2}}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}\hskip -1em.~Method}{3}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}\hskip -1em.~Method Overview}{3}{subsection.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}\hskip -1em.~Insertable Knowledge Unification Network}{3}{subsection.3.2}\protected@file@percent }
+\newlabel{sec_ikun}{{3.2}{3}{\hskip -1em.~Insertable Knowledge Unification Network}{subsection.3.2}{}}
+\newlabel{sec_ikun@cref}{{[subsection][2][3]3.2}{[1][3][]3}{}{}{}}
+\@writefile{brf}{\backcite{radford2021learning}{{3}{3.2}{subsection.3.2}}}
+\citation{ma2022x,chun2021probabilistic,jiang2023cross,yan2023image,li2022learning,yan2022clip}
+\citation{vaswani2017attention}
+\citation{wu2023referring}
+\citation{wu2023referring}
+\citation{zhang2021fairmot}
+\citation{yu2018deep}
+\citation{wojke2017simple}
+\citation{yu2018deep}
+\citation{zhang2022bytetrack}
+\citation{yu2018deep}
+\citation{liang2022rethinking}
+\citation{jocher2022ultralytics}
+\citation{sun2020transtrack}
+\citation{zhu2020deformable}
+\citation{meinhardt2022trackformer}
+\citation{zhu2020deformable}
+\citation{wu2023referring}
+\citation{zhu2020deformable}
+\citation{zhang2022bytetrack}
+\citation{Jocher_YOLO_by_Ultralytics_2023}
+\citation{cao2023observation}
+\citation{Jocher_YOLO_by_Ultralytics_2023}
+\citation{wojke2017simple}
+\citation{Jocher_YOLO_by_Ultralytics_2023}
+\citation{maggiolino2023deep}
+\citation{Jocher_YOLO_by_Ultralytics_2023}
+\citation{du2023strongsort}
+\citation{Jocher_YOLO_by_Ultralytics_2023}
+\citation{Jocher_YOLO_by_Ultralytics_2023}
+\citation{zhu2020deformable}
+\citation{zhang2021fairmot}
+\citation{zhang2022bytetrack}
+\citation{wu2023referring}
+\citation{cui2019class,hyun2022long,zhao2023mdcs,du2023superdisco,du2023no}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces  \textbf  {Three designs of knowledge unification module.} The feature maps are shown as the shape of their tensors with batch size $B$. For clarity, the final spatial global average pooling operation is omitted here. }}{4}{figure.caption.4}\protected@file@percent }
+\newlabel{fig_4}{{4}{4}{\textbf {Three designs of knowledge unification module.} The feature maps are shown as the shape of their tensors with batch size $B$. For clarity, the final spatial global average pooling operation is omitted here}{figure.caption.4}{}}
+\newlabel{fig_4@cref}{{[figure][4][]4}{[1][3][]4}{}{}{}}
+\@LN@col{1}
+\newlabel{eq1}{{1}{4}{\hskip -1em.~Insertable Knowledge Unification Network}{equation.3.1}{}}
+\newlabel{eq1@cref}{{[equation][1][]1}{[1][4][]4}{}{}{}}
+\@writefile{brf}{\backcite{chun2021probabilistic}{{4}{3.2}{equation.3.1}}}
+\@writefile{brf}{\backcite{jiang2023cross}{{4}{3.2}{equation.3.1}}}
+\@writefile{brf}{\backcite{li2022learning}{{4}{3.2}{equation.3.1}}}
+\@writefile{brf}{\backcite{ma2022x}{{4}{3.2}{equation.3.1}}}
+\@writefile{brf}{\backcite{yan2022clip}{{4}{3.2}{equation.3.1}}}
+\@writefile{brf}{\backcite{yan2023image}{{4}{3.2}{equation.3.1}}}
+\newlabel{eq2}{{2}{4}{\hskip -1em.~Insertable Knowledge Unification Network}{equation.3.2}{}}
+\newlabel{eq2@cref}{{[equation][2][]2}{[1][4][]4}{}{}{}}
+\@writefile{brf}{\backcite{vaswani2017attention}{{4}{3.2}{equation.3.2}}}
+\@LN@col{2}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}\hskip -1em.~Similarity Calibration}{4}{subsection.3.3}\protected@file@percent }
+\newlabel{sec_sc}{{3.3}{4}{\hskip -1em.~Similarity Calibration}{subsection.3.3}{}}
+\newlabel{sec_sc@cref}{{[subsection][3][3]3.3}{[1][4][]4}{}{}{}}
+\@writefile{brf}{\backcite{cui2019class}{{4}{3.3}{subsection.3.3}}}
+\@writefile{brf}{\backcite{du2023superdisco}{{4}{3.3}{subsection.3.3}}}
+\@writefile{brf}{\backcite{hyun2022long}{{4}{3.3}{subsection.3.3}}}
+\@writefile{brf}{\backcite{zhao2023mdcs}{{4}{3.3}{subsection.3.3}}}
+\citation{kalman1960new}
+\citation{hochreiter1997long}
+\citation{cho2014learning}
+\citation{zhang2022bytetrack}
+\citation{cao2023observation}
+\citation{maggiolino2023deep}
+\citation{du2023strongsort}
+\citation{wojke2017simple}
+\citation{wu2023referring}
+\citation{wu2023referring}
+\citation{wu2023referring}
+\citation{geiger2012we}
+\citation{luiten2021hota}
+\citation{bernardin2008evaluating}
+\citation{ristani2016performance}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces  \textbf  {Comparison with state-of-the-art RMOT methods on Refer-KITTI.} $\dagger $: the results are from official code base \footnotemark . $\star $: the similarity calibration method is applied. ``oracle'': the RMOT localization results are corrected based on GT. The results of first six rows are reported from TransRMOT \cite  {wu2023referring}. Previous best results are bolded in \textcolor {blue}{blue}, and our best results are in \textcolor {red}{red}. }}{5}{table.caption.5}\protected@file@percent }
+\@writefile{brf}{\backcite{wu2023referring}{{5}{1}{table.caption.5}}}
+\newlabel{table_rmot}{{1}{5}{\textbf {Comparison with state-of-the-art RMOT methods on Refer-KITTI.} $\dagger $: the results are from official code base \protect \footnotemark . $\star $: the similarity calibration method is applied. ``oracle'': the RMOT localization results are corrected based on GT. The results of first six rows are reported from TransRMOT \cite {wu2023referring}. Previous best results are bolded in \textcolor {blue}{blue}, and our best results are in \textcolor {red}{red}}{table.caption.5}{}}
+\newlabel{table_rmot@cref}{{[table][1][]1}{[1][4][]5}{}{}{}}
+\@writefile{brf}{\backcite{zhang2021fairmot}{{5}{1}{table.caption.5}}}
+\@writefile{brf}{\backcite{yu2018deep}{{5}{1}{table.caption.5}}}
+\@writefile{brf}{\backcite{wojke2017simple}{{5}{1}{table.caption.5}}}
+\@writefile{brf}{\backcite{yu2018deep}{{5}{1}{table.caption.5}}}
+\@writefile{brf}{\backcite{zhang2022bytetrack}{{5}{1}{table.caption.5}}}
+\@writefile{brf}{\backcite{yu2018deep}{{5}{1}{table.caption.5}}}
+\@writefile{brf}{\backcite{liang2022rethinking}{{5}{1}{table.caption.5}}}
+\@writefile{brf}{\backcite{jocher2022ultralytics}{{5}{1}{table.caption.5}}}
+\@writefile{brf}{\backcite{sun2020transtrack}{{5}{1}{table.caption.5}}}
+\@writefile{brf}{\backcite{zhu2020deformable}{{5}{1}{table.caption.5}}}
+\@writefile{brf}{\backcite{meinhardt2022trackformer}{{5}{1}{table.caption.5}}}
+\@writefile{brf}{\backcite{zhu2020deformable}{{5}{1}{table.caption.5}}}
+\@writefile{brf}{\backcite{wu2023referring}{{5}{1}{table.caption.5}}}
+\@writefile{brf}{\backcite{zhu2020deformable}{{5}{1}{table.caption.5}}}
+\@writefile{brf}{\backcite{zhang2022bytetrack}{{5}{1}{table.caption.5}}}
+\@writefile{brf}{\backcite{Jocher_YOLO_by_Ultralytics_2023}{{5}{1}{table.caption.5}}}
+\@writefile{brf}{\backcite{cao2023observation}{{5}{1}{table.caption.5}}}
+\@writefile{brf}{\backcite{Jocher_YOLO_by_Ultralytics_2023}{{5}{1}{table.caption.5}}}
+\@writefile{brf}{\backcite{wojke2017simple}{{5}{1}{table.caption.5}}}
+\@writefile{brf}{\backcite{Jocher_YOLO_by_Ultralytics_2023}{{5}{1}{table.caption.5}}}
+\@writefile{brf}{\backcite{maggiolino2023deep}{{5}{1}{table.caption.5}}}
+\@writefile{brf}{\backcite{Jocher_YOLO_by_Ultralytics_2023}{{5}{1}{table.caption.5}}}
+\@writefile{brf}{\backcite{du2023strongsort}{{5}{1}{table.caption.5}}}
+\@writefile{brf}{\backcite{Jocher_YOLO_by_Ultralytics_2023}{{5}{1}{table.caption.5}}}
+\@writefile{brf}{\backcite{Jocher_YOLO_by_Ultralytics_2023}{{5}{1}{table.caption.5}}}
+\@writefile{brf}{\backcite{zhu2020deformable}{{5}{1}{table.caption.5}}}
+\@writefile{brf}{\backcite{zhang2021fairmot}{{5}{1}{table.caption.5}}}
+\@writefile{brf}{\backcite{zhang2022bytetrack}{{5}{1}{table.caption.5}}}
+\@writefile{brf}{\backcite{wu2023referring}{{5}{1}{table.caption.5}}}
+\@LN@col{1}
+\newlabel{eq3}{{3}{5}{\hskip -1em.~Similarity Calibration}{equation.3.3}{}}
+\newlabel{eq3@cref}{{[equation][3][]3}{[1][5][]5}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}\hskip -1em.~Neural Kalman Filter}{5}{subsection.3.4}\protected@file@percent }
+\newlabel{sec_nkf}{{3.4}{5}{\hskip -1em.~Neural Kalman Filter}{subsection.3.4}{}}
+\newlabel{sec_nkf@cref}{{[subsection][4][3]3.4}{[1][5][]5}{}{}{}}
+\@writefile{brf}{\backcite{kalman1960new}{{5}{3.4}{subsection.3.4}}}
+\@LN@col{2}
+\newlabel{eq4}{{4}{5}{\hskip -1em.~Neural Kalman Filter}{equation.3.4}{}}
+\newlabel{eq4@cref}{{[equation][4][]4}{[1][5][]5}{}{}{}}
+\newlabel{eq5}{{5}{5}{\hskip -1em.~Neural Kalman Filter}{equation.3.5}{}}
+\newlabel{eq5@cref}{{[equation][5][]5}{[1][5][]5}{}{}{}}
+\@writefile{brf}{\backcite{hochreiter1997long}{{5}{3.4}{equation.3.6}}}
+\@writefile{brf}{\backcite{cho2014learning}{{5}{3.4}{equation.3.6}}}
+\citation{sun2022dancetrack}
+\citation{radford2021learning}
+\citation{lin2017focal}
+\citation{wojke2017simple}
+\citation{cao2023observation}
+\citation{maggiolino2023deep}
+\citation{wu2023referring}
+\citation{Jocher_YOLO_by_Ultralytics_2023}
+\citation{zhu2020deformable}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces  \textbf  {Comparison with state-of-the-art MOT methods on KITTI.} All trackers use the same detection results from YOLOv8. }}{6}{table.caption.6}\protected@file@percent }
+\newlabel{table_mot}{{2}{6}{\textbf {Comparison with state-of-the-art MOT methods on KITTI.} All trackers use the same detection results from YOLOv8}{table.caption.6}{}}
+\newlabel{table_mot@cref}{{[table][2][]2}{[1][5][]6}{}{}{}}
+\@writefile{brf}{\backcite{zhang2022bytetrack}{{6}{2}{table.caption.6}}}
+\@writefile{brf}{\backcite{cao2023observation}{{6}{2}{table.caption.6}}}
+\@writefile{brf}{\backcite{maggiolino2023deep}{{6}{2}{table.caption.6}}}
+\@writefile{brf}{\backcite{du2023strongsort}{{6}{2}{table.caption.6}}}
+\@writefile{brf}{\backcite{wojke2017simple}{{6}{2}{table.caption.6}}}
+\@LN@col{1}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces  \textbf  {The performance of TransRMOT\cite  {wu2023referring} and iKUN on Refer-Dance.} }}{6}{figure.caption.7}\protected@file@percent }
+\@writefile{brf}{\backcite{wu2023referring}{{6}{5}{figure.caption.7}}}
+\newlabel{fig_6}{{5}{6}{\textbf {The performance of TransRMOT\cite {wu2023referring} and iKUN on Refer-Dance.}}{figure.caption.7}{}}
+\newlabel{fig_6@cref}{{[figure][5][]5}{[1][5][]6}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}\hskip -1em.~Experiment}{6}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}\hskip -1em.~Experimental setup}{6}{subsection.4.1}\protected@file@percent }
+\@writefile{brf}{\backcite{wu2023referring}{{6}{4.1}{subsection.4.1}}}
+\@writefile{brf}{\backcite{geiger2012we}{{6}{4.1}{subsection.4.1}}}
+\@writefile{brf}{\backcite{luiten2021hota}{{6}{4.1}{subsection.4.1}}}
+\@writefile{brf}{\backcite{bernardin2008evaluating}{{6}{4.1}{subsection.4.1}}}
+\@writefile{brf}{\backcite{ristani2016performance}{{6}{4.1}{subsection.4.1}}}
+\@writefile{brf}{\backcite{sun2022dancetrack}{{6}{4.1}{subsection.4.1}}}
+\@LN@col{2}
+\@writefile{brf}{\backcite{radford2021learning}{{6}{4.1}{subsection.4.1}}}
+\@writefile{brf}{\backcite{lin2017focal}{{6}{4.1}{subsection.4.1}}}
+\@writefile{brf}{\backcite{wojke2017simple}{{6}{4.1}{subsection.4.1}}}
+\@writefile{brf}{\backcite{cao2023observation}{{6}{4.1}{subsection.4.1}}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}\hskip -1em.~Benchmark Experiments}{6}{subsection.4.2}\protected@file@percent }
+\@writefile{brf}{\backcite{wu2023referring}{{6}{4.2}{subsection.4.2}}}
+\@writefile{brf}{\backcite{Jocher_YOLO_by_Ultralytics_2023}{{6}{4.2}{subsection.4.2}}}
+\@writefile{brf}{\backcite{zhu2020deformable}{{6}{4.2}{subsection.4.2}}}
+\citation{zhang2022bytetrack}
+\citation{zhang2022bytetrack}
+\citation{zhang2022bytetrack}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces  \textbf  {Ablation study on different designs of knowledge unification module.} ``YOLOv8+NeuralSORT'' are used as multi-object tracker. The default setting is marked in \colorbox {lightgray}{gray}. }}{7}{table.caption.8}\protected@file@percent }
+\newlabel{table_kun}{{3}{7}{\textbf {Ablation study on different designs of knowledge unification module.} ``YOLOv8+NeuralSORT'' are used as multi-object tracker. The default setting is marked in \colorbox {lightgray}{gray}}{table.caption.8}{}}
+\newlabel{table_kun@cref}{{[table][3][]3}{[1][6][]7}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces  \textbf  {Ablation study on different components of NeuralSORT on KITTI}. NKF: neural kalman filter; DEL: extra exiting decision; VEL: extra velocity cost; INT: linear interpolation. The default setting is marked in \colorbox {lightgray}{gray}. }}{7}{table.caption.9}\protected@file@percent }
+\newlabel{table_neuralsort}{{4}{7}{\textbf {Ablation study on different components of NeuralSORT on KITTI}. NKF: neural kalman filter; DEL: extra exiting decision; VEL: extra velocity cost; INT: linear interpolation. The default setting is marked in \colorbox {lightgray}{gray}}{table.caption.9}{}}
+\newlabel{table_neuralsort@cref}{{[table][4][]4}{[1][6][]7}{}{}{}}
+\@writefile{brf}{\backcite{maggiolino2023deep}{{7}{4}{table.caption.9}}}
+\@LN@col{1}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces  \textbf  {Effect of hyper-parameters of similarity calibration.} The second line ``cascade attention'' in Tab.\ref {table_kun} are taken as baseline. The selected parameters are marked in \colorbox {lightgray}{gray}. }}{7}{table.caption.10}\protected@file@percent }
+\newlabel{table_sc}{{5}{7}{\textbf {Effect of hyper-parameters of similarity calibration.} The second line ``cascade attention'' in Tab.\ref {table_kun} are taken as baseline. The selected parameters are marked in \colorbox {lightgray}{gray}}{table.caption.10}{}}
+\newlabel{table_sc@cref}{{[table][5][]5}{[1][6][]7}{}{}{}}
+\@writefile{brf}{\backcite{zhang2022bytetrack}{{7}{4.2}{subsection.4.2}}}
+\@LN@col{2}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}\hskip -1em.~Ablation Experiments}{7}{subsection.4.3}\protected@file@percent }
+\bibstyle{ieeenat_fullname}
+\bibdata{main}
+\bibcite{aharon2022bot}{{1}{2022}{{Aharon et~al.}}{{Aharon, Orfaig, and Bobrovsky}}}
+\@LN@col{1}
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces  \textbf  {The comparison between vanilla Kalman filter and neural Kalman filter for multiple pedestrian tracking.} We use ByteTrack\cite  {zhang2022bytetrack} as the baseline tracker and experiment on the KITTI and DanceTrack dataset. }}{8}{table.caption.11}\protected@file@percent }
+\@writefile{brf}{\backcite{zhang2022bytetrack}{{8}{6}{table.caption.11}}}
+\newlabel{table_nkf}{{6}{8}{\textbf {The comparison between vanilla Kalman filter and neural Kalman filter for multiple pedestrian tracking.} We use ByteTrack\cite {zhang2022bytetrack} as the baseline tracker and experiment on the KITTI and DanceTrack dataset}{table.caption.11}{}}
+\newlabel{table_nkf@cref}{{[table][6][]6}{[1][7][]8}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces  \textbf  {Comparison of training and inference time between TransRMOT and iKUN.} Both models are trained for 100 epochs. All experiments are conducted on the same machine with multiple Tesla T4 GPUs on dataset Refer-KITTI. }}{8}{table.caption.12}\protected@file@percent }
+\newlabel{table_time}{{7}{8}{\textbf {Comparison of training and inference time between TransRMOT and iKUN.} Both models are trained for 100 epochs. All experiments are conducted on the same machine with multiple Tesla T4 GPUs on dataset Refer-KITTI}{table.caption.12}{}}
+\newlabel{table_time@cref}{{[table][7][]7}{[1][7][]8}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}\hskip -1em.~Qualitative Results}{8}{subsection.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}\hskip -1em.~Limitations}{8}{subsection.4.5}\protected@file@percent }
+\@LN@col{2}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces  \textbf  {Qualitative results of our method on Refer-KITTI (row 1 to 3) and Refer-Dance (row 4).} }}{8}{figure.caption.13}\protected@file@percent }
+\newlabel{fig_7}{{6}{8}{\textbf {Qualitative results of our method on Refer-KITTI (row 1 to 3) and Refer-Dance (row 4).}}{figure.caption.13}{}}
+\newlabel{fig_7@cref}{{[figure][6][]6}{[1][8][]8}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}\hskip -1em.~Conclusion}{8}{section.5}\protected@file@percent }
+\bibcite{bernardin2008evaluating}{{2}{2008}{{Bernardin and Stiefelhagen}}{{}}}
+\bibcite{bewley2016simple}{{3}{2016}{{Bewley et~al.}}{{Bewley, Ge, Ott, Ramos, and Upcroft}}}
+\bibcite{bochinski2017high}{{4}{2017}{{Bochinski et~al.}}{{Bochinski, Eiselein, and Sikora}}}
+\bibcite{botach2022end}{{5}{2022}{{Botach et~al.}}{{Botach, Zheltonozhskii, and Baskin}}}
+\bibcite{cao2023observation}{{6}{2023}{{Cao et~al.}}{{Cao, Pang, Weng, Khirodkar, and Kitani}}}
+\bibcite{carion2020end}{{7}{2020}{{Carion et~al.}}{{Carion, Massa, Synnaeve, Usunier, Kirillov, and Zagoruyko}}}
+\bibcite{cho2014learning}{{8}{2014}{{Cho et~al.}}{{Cho, Van~Merri{\"e}nboer, Gulcehre, Bahdanau, Bougares, Schwenk, and Bengio}}}
+\bibcite{chun2021probabilistic}{{9}{2021}{{Chun et~al.}}{{Chun, Oh, De~Rezende, Kalantidis, and Larlus}}}
+\bibcite{cui2019class}{{10}{2019}{{Cui et~al.}}{{Cui, Jia, Lin, Song, and Belongie}}}
+\bibcite{du2023no}{{11}{2023}{{Du and Wu}}{{}}}
+\bibcite{du2023superdisco}{{12}{2023{}}{{Du et~al.}}{{Du, Shen, Zhen, and Snoek}}}
+\bibcite{du2023strongsort}{{13}{2023{}}{{Du et~al.}}{{Du, Zhao, Song, Zhao, Su, Gong, and Meng}}}
+\bibcite{geiger2012we}{{14}{2012}{{Geiger et~al.}}{{Geiger, Lenz, and Urtasun}}}
+\bibcite{han2022mat}{{15}{2022}{{Han et~al.}}{{Han, Huang, Wang, Yu, Liu, and Pan}}}
+\bibcite{hochreiter1997long}{{16}{1997}{{Hochreiter and Schmidhuber}}{{}}}
+\bibcite{hyun2022long}{{17}{2022}{{Hyun~Cho and Kr{\"a}henb{\"u}hl}}{{}}}
+\bibcite{jiang2023cross}{{18}{2023}{{Jiang and Ye}}{{}}}
+\bibcite{jocher2022ultralytics}{{19}{2022}{{Jocher et~al.}}{{Jocher, Chaurasia, Stoken, Borovec, Kwon, Michael, Fang, Yifu, Wong, Montes, et~al.}}}
+\bibcite{Jocher_YOLO_by_Ultralytics_2023}{{20}{2023}{{Jocher et~al.}}{{Jocher, Chaurasia, and Qiu}}}
+\bibcite{kalman1960new}{{21}{1960}{{Kalman}}{{}}}
+\bibcite{li2022learning}{{22}{2022}{{Li et~al.}}{{Li, Cao, and Zhang}}}
+\bibcite{liang2022one}{{23}{2022{}}{{Liang et~al.}}{{Liang, Zhang, Zhou, Li, and Hu}}}
+\bibcite{liang2022rethinking}{{24}{2022{}}{{Liang et~al.}}{{Liang, Zhang, Zhou, Li, Zhu, and Hu}}}
+\bibcite{lin2017focal}{{25}{2017}{{Lin et~al.}}{{Lin, Goyal, Girshick, He, and Doll{\'a}r}}}
+\bibcite{luiten2021hota}{{26}{2021}{{Luiten et~al.}}{{Luiten, Osep, Dendorfer, Torr, Geiger, Leal-Taix{\'e}, and Leibe}}}
+\bibcite{ma2022x}{{27}{2022}{{Ma et~al.}}{{Ma, Xu, Sun, Yan, Zhang, and Ji}}}
+\bibcite{maggiolino2023deep}{{28}{2023}{{Maggiolino et~al.}}{{Maggiolino, Ahmad, Cao, and Kitani}}}
+\bibcite{meinhardt2022trackformer}{{29}{2022}{{Meinhardt et~al.}}{{Meinhardt, Kirillov, Leal-Taixe, and Feichtenhofer}}}
+\@LN@col{1}
+\@LN@col{2}
+\bibcite{radford2021learning}{{30}{2021}{{Radford et~al.}}{{Radford, Kim, Hallacy, Ramesh, Goh, Agarwal, Sastry, Askell, Mishkin, Clark, et~al.}}}
+\bibcite{ristani2016performance}{{31}{2016}{{Ristani et~al.}}{{Ristani, Solera, Zou, Cucchiara, and Tomasi}}}
+\bibcite{sun2020transtrack}{{32}{2020}{{Sun et~al.}}{{Sun, Cao, Jiang, Zhang, Xie, Yuan, Wang, and Luo}}}
+\bibcite{sun2022dancetrack}{{33}{2022}{{Sun et~al.}}{{Sun, Cao, Jiang, Yuan, Bai, Kitani, and Luo}}}
+\bibcite{vaswani2017attention}{{34}{2017}{{Vaswani et~al.}}{{Vaswani, Shazeer, Parmar, Uszkoreit, Jones, Gomez, Kaiser, and Polosukhin}}}
+\bibcite{wang2020towards}{{35}{2020}{{Wang et~al.}}{{Wang, Zheng, Liu, Li, and Wang}}}
+\bibcite{wojke2017simple}{{36}{2017}{{Wojke et~al.}}{{Wojke, Bewley, and Paulus}}}
+\bibcite{wu2023referring}{{37}{2023{}}{{Wu et~al.}}{{Wu, Han, Wang, Dong, Zhang, and Shen}}}
+\bibcite{wu2023onlinerefer}{{38}{2023{}}{{Wu et~al.}}{{Wu, Wang, Zhang, Zhang, and Shen}}}
+\bibcite{wu2022language}{{39}{2022}{{Wu et~al.}}{{Wu, Jiang, Sun, Yuan, and Luo}}}
+\bibcite{yan2022clip}{{40}{2022}{{Yan et~al.}}{{Yan, Dong, Zhang, and Tang}}}
+\bibcite{yan2023image}{{41}{2023}{{Yan et~al.}}{{Yan, Tang, Zhang, and Tang}}}
+\bibcite{yang2023hard}{{42}{2023}{{Yang et~al.}}{{Yang, Odashima, Masui, and Jiang}}}
+\bibcite{yu2016poi}{{43}{2016}{{Yu et~al.}}{{Yu, Li, Li, Liu, Shi, and Yan}}}
+\bibcite{yu2018deep}{{44}{2018}{{Yu et~al.}}{{Yu, Wang, Shelhamer, and Darrell}}}
+\bibcite{zhang2023one}{{45}{2023{}}{{Zhang et~al.}}{{Zhang, Wang, Zhang, Zhang, and Zhong}}}
+\bibcite{zhang2021fairmot}{{46}{2021}{{Zhang et~al.}}{{Zhang, Wang, Wang, Zeng, and Liu}}}
+\bibcite{zhang2022bytetrack}{{47}{2022}{{Zhang et~al.}}{{Zhang, Sun, Jiang, Yu, Weng, Yuan, Luo, Liu, and Wang}}}
+\bibcite{zhang2023motrv2}{{48}{2023{}}{{Zhang et~al.}}{{Zhang, Wang, and Zhang}}}
+\bibcite{zhao2023transformer}{{49}{2023{}}{{Zhao et~al.}}{{Zhao, Wang, Wang, Lu, and Ruan}}}
+\bibcite{zhao2023mdcs}{{50}{2023{}}{{Zhao et~al.}}{{Zhao, Jiang, Hu, Zhang, and Liu}}}
+\bibcite{zheng2023towards}{{51}{2023}{{Zheng et~al.}}{{Zheng, Zhong, Liang, Li, Ji, and Li}}}
+\bibcite{zhou2023joint}{{52}{2023}{{Zhou et~al.}}{{Zhou, Zhou, Mao, and He}}}
+\bibcite{zhu2020deformable}{{53}{2020}{{Zhu et~al.}}{{Zhu, Su, Lu, Li, Wang, and Dai}}}
+\@LN@col{1}
+\@LN@col{2}
+\gdef \@abspage@last{10}

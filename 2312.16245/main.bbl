@@ -1,0 +1,382 @@
+\begin{thebibliography}{53}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Aharon et~al.(2022)Aharon, Orfaig, and Bobrovsky]{aharon2022bot}
+Nir Aharon, Roy Orfaig, and Ben-Zion Bobrovsky.
+\newblock Bot-sort: Robust associations multi-pedestrian tracking.
+\newblock \emph{arXiv preprint arXiv:2206.14651}, 2022.
+
+\bibitem[Bernardin and Stiefelhagen(2008)]{bernardin2008evaluating}
+Keni Bernardin and Rainer Stiefelhagen.
+\newblock Evaluating multiple object tracking performance: the clear mot
+  metrics.
+\newblock \emph{EURASIP Journal on Image and Video Processing}, 2008:\penalty0
+  1--10, 2008.
+
+\bibitem[Bewley et~al.(2016)Bewley, Ge, Ott, Ramos, and
+  Upcroft]{bewley2016simple}
+Alex Bewley, Zongyuan Ge, Lionel Ott, Fabio Ramos, and Ben Upcroft.
+\newblock Simple online and realtime tracking.
+\newblock In \emph{2016 IEEE international conference on image processing
+  (ICIP)}, pages 3464--3468. IEEE, 2016.
+
+\bibitem[Bochinski et~al.(2017)Bochinski, Eiselein, and
+  Sikora]{bochinski2017high}
+Erik Bochinski, Volker Eiselein, and Thomas Sikora.
+\newblock High-speed tracking-by-detection without using image information.
+\newblock In \emph{2017 14th IEEE international conference on advanced video
+  and signal based surveillance (AVSS)}, pages 1--6. IEEE, 2017.
+
+\bibitem[Botach et~al.(2022)Botach, Zheltonozhskii, and Baskin]{botach2022end}
+Adam Botach, Evgenii Zheltonozhskii, and Chaim Baskin.
+\newblock End-to-end referring video object segmentation with multimodal
+  transformers.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision
+  and Pattern Recognition}, pages 4985--4995, 2022.
+
+\bibitem[Cao et~al.(2023)Cao, Pang, Weng, Khirodkar, and
+  Kitani]{cao2023observation}
+Jinkun Cao, Jiangmiao Pang, Xinshuo Weng, Rawal Khirodkar, and Kris Kitani.
+\newblock Observation-centric sort: Rethinking sort for robust multi-object
+  tracking.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision
+  and Pattern Recognition}, pages 9686--9696, 2023.
+
+\bibitem[Carion et~al.(2020)Carion, Massa, Synnaeve, Usunier, Kirillov, and
+  Zagoruyko]{carion2020end}
+Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander
+  Kirillov, and Sergey Zagoruyko.
+\newblock End-to-end object detection with transformers.
+\newblock In \emph{European conference on computer vision}, pages 213--229.
+  Springer, 2020.
+
+\bibitem[Cho et~al.(2014)Cho, Van~Merri{\"e}nboer, Gulcehre, Bahdanau,
+  Bougares, Schwenk, and Bengio]{cho2014learning}
+Kyunghyun Cho, Bart Van~Merri{\"e}nboer, Caglar Gulcehre, Dzmitry Bahdanau,
+  Fethi Bougares, Holger Schwenk, and Yoshua Bengio.
+\newblock Learning phrase representations using rnn encoder-decoder for
+  statistical machine translation.
+\newblock \emph{arXiv preprint arXiv:1406.1078}, 2014.
+
+\bibitem[Chun et~al.(2021)Chun, Oh, De~Rezende, Kalantidis, and
+  Larlus]{chun2021probabilistic}
+Sanghyuk Chun, Seong~Joon Oh, Rafael~Sampaio De~Rezende, Yannis Kalantidis, and
+  Diane Larlus.
+\newblock Probabilistic embeddings for cross-modal retrieval.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision
+  and Pattern Recognition}, pages 8415--8424, 2021.
+
+\bibitem[Cui et~al.(2019)Cui, Jia, Lin, Song, and Belongie]{cui2019class}
+Yin Cui, Menglin Jia, Tsung-Yi Lin, Yang Song, and Serge Belongie.
+\newblock Class-balanced loss based on effective number of samples.
+\newblock In \emph{Proceedings of the IEEE/CVF conference on computer vision
+  and pattern recognition}, pages 9268--9277, 2019.
+
+\bibitem[Du and Wu(2023)]{du2023no}
+Yingxiao Du and Jianxin Wu.
+\newblock No one left behind: Improving the worst categories in long-tailed
+  learning.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision
+  and Pattern Recognition}, pages 15804--15813, 2023.
+
+\bibitem[Du et~al.(2023{\natexlab{a}})Du, Shen, Zhen, and
+  Snoek]{du2023superdisco}
+Yingjun Du, Jiayi Shen, Xiantong Zhen, and Cees~GM Snoek.
+\newblock Superdisco: Super-class discovery improves visual recognition for the
+  long-tail.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision
+  and Pattern Recognition}, pages 19944--19954, 2023{\natexlab{a}}.
+
+\bibitem[Du et~al.(2023{\natexlab{b}})Du, Zhao, Song, Zhao, Su, Gong, and
+  Meng]{du2023strongsort}
+Yunhao Du, Zhicheng Zhao, Yang Song, Yanyun Zhao, Fei Su, Tao Gong, and
+  Hongying Meng.
+\newblock Strongsort: Make deepsort great again.
+\newblock \emph{IEEE Transactions on Multimedia}, 2023{\natexlab{b}}.
+
+\bibitem[Geiger et~al.(2012)Geiger, Lenz, and Urtasun]{geiger2012we}
+Andreas Geiger, Philip Lenz, and Raquel Urtasun.
+\newblock Are we ready for autonomous driving? the kitti vision benchmark
+  suite.
+\newblock In \emph{2012 IEEE conference on computer vision and pattern
+  recognition}, pages 3354--3361. IEEE, 2012.
+
+\bibitem[Han et~al.(2022)Han, Huang, Wang, Yu, Liu, and Pan]{han2022mat}
+Shoudong Han, Piao Huang, Hongwei Wang, En Yu, Donghaisheng Liu, and Xiaofeng
+  Pan.
+\newblock Mat: Motion-aware multi-object tracking.
+\newblock \emph{Neurocomputing}, 476:\penalty0 75--86, 2022.
+
+\bibitem[Hochreiter and Schmidhuber(1997)]{hochreiter1997long}
+Sepp Hochreiter and J{\"u}rgen Schmidhuber.
+\newblock Long short-term memory.
+\newblock \emph{Neural computation}, 9\penalty0 (8):\penalty0 1735--1780, 1997.
+
+\bibitem[Hyun~Cho and Kr{\"a}henb{\"u}hl(2022)]{hyun2022long}
+Jang Hyun~Cho and Philipp Kr{\"a}henb{\"u}hl.
+\newblock Long-tail detection with effective class-margins.
+\newblock In \emph{European Conference on Computer Vision}, pages 698--714.
+  Springer, 2022.
+
+\bibitem[Jiang and Ye(2023)]{jiang2023cross}
+Ding Jiang and Mang Ye.
+\newblock Cross-modal implicit relation reasoning and aligning for
+  text-to-image person retrieval.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision
+  and Pattern Recognition}, pages 2787--2797, 2023.
+
+\bibitem[Jocher et~al.(2022)Jocher, Chaurasia, Stoken, Borovec, Kwon, Michael,
+  Fang, Yifu, Wong, Montes, et~al.]{jocher2022ultralytics}
+Glenn Jocher, Ayush Chaurasia, Alex Stoken, Jirka Borovec, Yonghye Kwon, Kalen
+  Michael, Jiacong Fang, Zeng Yifu, Colin Wong, Diego Montes, et~al.
+\newblock ultralytics/yolov5: v7. 0-yolov5 sota realtime instance segmentation.
+\newblock \emph{Zenodo}, 2022.
+
+\bibitem[Jocher et~al.(2023)Jocher, Chaurasia, and
+  Qiu]{Jocher_YOLO_by_Ultralytics_2023}
+Glenn Jocher, Ayush Chaurasia, and Jing Qiu.
+\newblock {YOLO by Ultralytics}, 2023.
+
+\bibitem[Kalman(1960)]{kalman1960new}
+Rudolph~Emil Kalman.
+\newblock A new approach to linear filtering and prediction problems.
+\newblock 1960.
+
+\bibitem[Li et~al.(2022)Li, Cao, and Zhang]{li2022learning}
+Shiping Li, Min Cao, and Min Zhang.
+\newblock Learning semantic-aligned feature representation for text-based
+  person search.
+\newblock In \emph{ICASSP 2022-2022 IEEE International Conference on Acoustics,
+  Speech and Signal Processing (ICASSP)}, pages 2724--2728. IEEE, 2022.
+
+\bibitem[Liang et~al.(2022{\natexlab{a}})Liang, Zhang, Zhou, Li, and
+  Hu]{liang2022one}
+Chao Liang, Zhipeng Zhang, Xue Zhou, Bing Li, and Weiming Hu.
+\newblock One more check: making “fake background” be tracked again.
+\newblock In \emph{Proceedings of the AAAI Conference on Artificial
+  Intelligence}, pages 1546--1554, 2022{\natexlab{a}}.
+
+\bibitem[Liang et~al.(2022{\natexlab{b}})Liang, Zhang, Zhou, Li, Zhu, and
+  Hu]{liang2022rethinking}
+Chao Liang, Zhipeng Zhang, Xue Zhou, Bing Li, Shuyuan Zhu, and Weiming Hu.
+\newblock Rethinking the competition between detection and reid in multiobject
+  tracking.
+\newblock \emph{IEEE Transactions on Image Processing}, 31:\penalty0
+  3182--3196, 2022{\natexlab{b}}.
+
+\bibitem[Lin et~al.(2017)Lin, Goyal, Girshick, He, and
+  Doll{\'a}r]{lin2017focal}
+Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He, and Piotr Doll{\'a}r.
+\newblock Focal loss for dense object detection.
+\newblock In \emph{Proceedings of the IEEE international conference on computer
+  vision}, pages 2980--2988, 2017.
+
+\bibitem[Luiten et~al.(2021)Luiten, Osep, Dendorfer, Torr, Geiger,
+  Leal-Taix{\'e}, and Leibe]{luiten2021hota}
+Jonathon Luiten, Aljosa Osep, Patrick Dendorfer, Philip Torr, Andreas Geiger,
+  Laura Leal-Taix{\'e}, and Bastian Leibe.
+\newblock Hota: A higher order metric for evaluating multi-object tracking.
+\newblock \emph{International journal of computer vision}, 129:\penalty0
+  548--578, 2021.
+
+\bibitem[Ma et~al.(2022)Ma, Xu, Sun, Yan, Zhang, and Ji]{ma2022x}
+Yiwei Ma, Guohai Xu, Xiaoshuai Sun, Ming Yan, Ji Zhang, and Rongrong Ji.
+\newblock X-clip: End-to-end multi-grained contrastive learning for video-text
+  retrieval.
+\newblock In \emph{Proceedings of the 30th ACM International Conference on
+  Multimedia}, pages 638--647, 2022.
+
+\bibitem[Maggiolino et~al.(2023)Maggiolino, Ahmad, Cao, and
+  Kitani]{maggiolino2023deep}
+Gerard Maggiolino, Adnan Ahmad, Jinkun Cao, and Kris Kitani.
+\newblock Deep oc-sort: Multi-pedestrian tracking by adaptive
+  re-identification.
+\newblock \emph{arXiv preprint arXiv:2302.11813}, 2023.
+
+\bibitem[Meinhardt et~al.(2022)Meinhardt, Kirillov, Leal-Taixe, and
+  Feichtenhofer]{meinhardt2022trackformer}
+Tim Meinhardt, Alexander Kirillov, Laura Leal-Taixe, and Christoph
+  Feichtenhofer.
+\newblock Trackformer: Multi-object tracking with transformers.
+\newblock In \emph{Proceedings of the IEEE/CVF conference on computer vision
+  and pattern recognition}, pages 8844--8854, 2022.
+
+\bibitem[Radford et~al.(2021)Radford, Kim, Hallacy, Ramesh, Goh, Agarwal,
+  Sastry, Askell, Mishkin, Clark, et~al.]{radford2021learning}
+Alec Radford, Jong~Wook Kim, Chris Hallacy, Aditya Ramesh, Gabriel Goh,
+  Sandhini Agarwal, Girish Sastry, Amanda Askell, Pamela Mishkin, Jack Clark,
+  et~al.
+\newblock Learning transferable visual models from natural language
+  supervision.
+\newblock In \emph{International conference on machine learning}, pages
+  8748--8763. PMLR, 2021.
+
+\bibitem[Ristani et~al.(2016)Ristani, Solera, Zou, Cucchiara, and
+  Tomasi]{ristani2016performance}
+Ergys Ristani, Francesco Solera, Roger Zou, Rita Cucchiara, and Carlo Tomasi.
+\newblock Performance measures and a data set for multi-target, multi-camera
+  tracking.
+\newblock In \emph{European conference on computer vision}, pages 17--35.
+  Springer, 2016.
+
+\bibitem[Sun et~al.(2020)Sun, Cao, Jiang, Zhang, Xie, Yuan, Wang, and
+  Luo]{sun2020transtrack}
+Peize Sun, Jinkun Cao, Yi Jiang, Rufeng Zhang, Enze Xie, Zehuan Yuan, Changhu
+  Wang, and Ping Luo.
+\newblock Transtrack: Multiple object tracking with transformer.
+\newblock \emph{arXiv preprint arXiv:2012.15460}, 2020.
+
+\bibitem[Sun et~al.(2022)Sun, Cao, Jiang, Yuan, Bai, Kitani, and
+  Luo]{sun2022dancetrack}
+Peize Sun, Jinkun Cao, Yi Jiang, Zehuan Yuan, Song Bai, Kris Kitani, and Ping
+  Luo.
+\newblock Dancetrack: Multi-object tracking in uniform appearance and diverse
+  motion.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision
+  and Pattern Recognition}, pages 20993--21002, 2022.
+
+\bibitem[Vaswani et~al.(2017)Vaswani, Shazeer, Parmar, Uszkoreit, Jones, Gomez,
+  Kaiser, and Polosukhin]{vaswani2017attention}
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
+  Aidan~N Gomez, {\L}ukasz Kaiser, and Illia Polosukhin.
+\newblock Attention is all you need.
+\newblock \emph{Advances in neural information processing systems}, 30, 2017.
+
+\bibitem[Wang et~al.(2020)Wang, Zheng, Liu, Li, and Wang]{wang2020towards}
+Zhongdao Wang, Liang Zheng, Yixuan Liu, Yali Li, and Shengjin Wang.
+\newblock Towards real-time multi-object tracking.
+\newblock In \emph{European Conference on Computer Vision}, pages 107--122.
+  Springer, 2020.
+
+\bibitem[Wojke et~al.(2017)Wojke, Bewley, and Paulus]{wojke2017simple}
+Nicolai Wojke, Alex Bewley, and Dietrich Paulus.
+\newblock Simple online and realtime tracking with a deep association metric.
+\newblock In \emph{2017 IEEE international conference on image processing
+  (ICIP)}, pages 3645--3649. IEEE, 2017.
+
+\bibitem[Wu et~al.(2023{\natexlab{a}})Wu, Han, Wang, Dong, Zhang, and
+  Shen]{wu2023referring}
+Dongming Wu, Wencheng Han, Tiancai Wang, Xingping Dong, Xiangyu Zhang, and
+  Jianbing Shen.
+\newblock Referring multi-object tracking.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision
+  and Pattern Recognition}, pages 14633--14642, 2023{\natexlab{a}}.
+
+\bibitem[Wu et~al.(2023{\natexlab{b}})Wu, Wang, Zhang, Zhang, and
+  Shen]{wu2023onlinerefer}
+Dongming Wu, Tiancai Wang, Yuang Zhang, Xiangyu Zhang, and Jianbing Shen.
+\newblock Onlinerefer: A simple online baseline for referring video object
+  segmentation.
+\newblock In \emph{Proceedings of the IEEE/CVF International Conference on
+  Computer Vision}, pages 2761--2770, 2023{\natexlab{b}}.
+
+\bibitem[Wu et~al.(2022)Wu, Jiang, Sun, Yuan, and Luo]{wu2022language}
+Jiannan Wu, Yi Jiang, Peize Sun, Zehuan Yuan, and Ping Luo.
+\newblock Language as queries for referring video object segmentation.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision
+  and Pattern Recognition}, pages 4974--4984, 2022.
+
+\bibitem[Yan et~al.(2022)Yan, Dong, Zhang, and Tang]{yan2022clip}
+Shuanglin Yan, Neng Dong, Liyan Zhang, and Jinhui Tang.
+\newblock Clip-driven fine-grained text-image person re-identification.
+\newblock \emph{arXiv preprint arXiv:2210.10276}, 2022.
+
+\bibitem[Yan et~al.(2023)Yan, Tang, Zhang, and Tang]{yan2023image}
+Shuanglin Yan, Hao Tang, Liyan Zhang, and Jinhui Tang.
+\newblock Image-specific information suppression and implicit local alignment
+  for text-based person search.
+\newblock \emph{IEEE Transactions on Neural Networks and Learning Systems},
+  2023.
+
+\bibitem[Yang et~al.(2023)Yang, Odashima, Masui, and Jiang]{yang2023hard}
+Fan Yang, Shigeyuki Odashima, Shoichi Masui, and Shan Jiang.
+\newblock Hard to track objects with irregular motions and similar appearances?
+  make it easier by buffering the matching space.
+\newblock In \emph{Proceedings of the IEEE/CVF Winter Conference on
+  Applications of Computer Vision}, pages 4799--4808, 2023.
+
+\bibitem[Yu et~al.(2016)Yu, Li, Li, Liu, Shi, and Yan]{yu2016poi}
+Fengwei Yu, Wenbo Li, Quanquan Li, Yu Liu, Xiaohua Shi, and Junjie Yan.
+\newblock Poi: Multiple object tracking with high performance detection and
+  appearance feature.
+\newblock In \emph{Computer Vision--ECCV 2016 Workshops: Amsterdam, The
+  Netherlands, October 8-10 and 15-16, 2016, Proceedings, Part II 14}, pages
+  36--42. Springer, 2016.
+
+\bibitem[Yu et~al.(2018)Yu, Wang, Shelhamer, and Darrell]{yu2018deep}
+Fisher Yu, Dequan Wang, Evan Shelhamer, and Trevor Darrell.
+\newblock Deep layer aggregation.
+\newblock In \emph{Proceedings of the IEEE conference on computer vision and
+  pattern recognition}, pages 2403--2412, 2018.
+
+\bibitem[Zhang et~al.(2023{\natexlab{a}})Zhang, Wang, Zhang, Zhang, and
+  Zhong]{zhang2023one}
+Huanlong Zhang, Jingchao Wang, Jianwei Zhang, Tianzhu Zhang, and Bineng Zhong.
+\newblock One-stream vision-language memory network for object tracking.
+\newblock \emph{IEEE Transactions on Multimedia}, 2023{\natexlab{a}}.
+
+\bibitem[Zhang et~al.(2021)Zhang, Wang, Wang, Zeng, and Liu]{zhang2021fairmot}
+Yifu Zhang, Chunyu Wang, Xinggang Wang, Wenjun Zeng, and Wenyu Liu.
+\newblock Fairmot: On the fairness of detection and re-identification in
+  multiple object tracking.
+\newblock \emph{International Journal of Computer Vision}, 129:\penalty0
+  3069--3087, 2021.
+
+\bibitem[Zhang et~al.(2022)Zhang, Sun, Jiang, Yu, Weng, Yuan, Luo, Liu, and
+  Wang]{zhang2022bytetrack}
+Yifu Zhang, Peize Sun, Yi Jiang, Dongdong Yu, Fucheng Weng, Zehuan Yuan, Ping
+  Luo, Wenyu Liu, and Xinggang Wang.
+\newblock Bytetrack: Multi-object tracking by associating every detection box.
+\newblock In \emph{European Conference on Computer Vision}, pages 1--21.
+  Springer, 2022.
+
+\bibitem[Zhang et~al.(2023{\natexlab{b}})Zhang, Wang, and
+  Zhang]{zhang2023motrv2}
+Yuang Zhang, Tiancai Wang, and Xiangyu Zhang.
+\newblock Motrv2: Bootstrapping end-to-end multi-object tracking by pretrained
+  object detectors.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision
+  and Pattern Recognition}, pages 22056--22065, 2023{\natexlab{b}}.
+
+\bibitem[Zhao et~al.(2023{\natexlab{a}})Zhao, Wang, Wang, Lu, and
+  Ruan]{zhao2023transformer}
+Haojie Zhao, Xiao Wang, Dong Wang, Huchuan Lu, and Xiang Ruan.
+\newblock Transformer vision-language tracking via proxy token guided
+  cross-modal fusion.
+\newblock \emph{Pattern Recognition Letters}, 168:\penalty0 10--16,
+  2023{\natexlab{a}}.
+
+\bibitem[Zhao et~al.(2023{\natexlab{b}})Zhao, Jiang, Hu, Zhang, and
+  Liu]{zhao2023mdcs}
+Qihao Zhao, Chen Jiang, Wei Hu, Fan Zhang, and Jun Liu.
+\newblock Mdcs: More diverse experts with consistency self-distillation for
+  long-tailed recognition.
+\newblock In \emph{Proceedings of the IEEE/CVF International Conference on
+  Computer Vision}, pages 11597--11608, 2023{\natexlab{b}}.
+
+\bibitem[Zheng et~al.(2023)Zheng, Zhong, Liang, Li, Ji, and
+  Li]{zheng2023towards}
+Yaozong Zheng, Bineng Zhong, Qihua Liang, Guorong Li, Rongrong Ji, and Xianxian
+  Li.
+\newblock Towards unified token learning for vision-language tracking.
+\newblock \emph{IEEE Transactions on Circuits and Systems for Video
+  Technology}, 2023.
+
+\bibitem[Zhou et~al.(2023)Zhou, Zhou, Mao, and He]{zhou2023joint}
+Li Zhou, Zikun Zhou, Kaige Mao, and Zhenyu He.
+\newblock Joint visual grounding and tracking with natural language
+  specification.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision
+  and Pattern Recognition}, pages 23151--23160, 2023.
+
+\bibitem[Zhu et~al.(2020)Zhu, Su, Lu, Li, Wang, and Dai]{zhu2020deformable}
+Xizhou Zhu, Weijie Su, Lewei Lu, Bin Li, Xiaogang Wang, and Jifeng Dai.
+\newblock Deformable detr: Deformable transformers for end-to-end object
+  detection.
+\newblock \emph{arXiv preprint arXiv:2010.04159}, 2020.
+
+\end{thebibliography}
